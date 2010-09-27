@@ -1,5 +1,11 @@
+*.db
+*.egg
+*.egg-info
+*.gz
+*.log
 *.pyc
 *~
+.DS_Store
 MANIFEST
 build/
 dist/
