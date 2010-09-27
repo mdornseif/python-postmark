@@ -50,7 +50,9 @@ class PMMail(object):
         html_body:      Email message in HTML
         text_body:      Email message in plain text
         custom_headers: A dictionary of key-value pairs of custom headers.
-        attachments:    A list of dictionaries describing attachments.
+        attachments:    A list of attachments. Attachments can be either
+                        email.mime.base.MIMEBase instances or tuples
+                        (filename, base64encoded_content, content-type).
         '''
         # initialize properties
         self.__api_key = None

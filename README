@@ -7,6 +7,10 @@ PYTHON INFORMATION:
     Python 2.6 has JSON support built in.
 
 CHANGE LOG:
+    Developent
+        - Added attachment support
+        - Added BCC Support
+
     Version 0.2.0
         - Merged with frozenskys/master to bring in PMBounceManager
         - Support for multiple to/cc (limit: 20 per)
